@@ -1,2 +1,6 @@
-Вывод сообщения: print('Hello, World!')
-Комментарий:     # You know nothing, Jon Snow!
+Вывод сообщения:                                                                       print('Hello, World!')
+Комментарий:                                                                           # You know nothing, Jon Snow!
+Инструкция (statement) — команда для компьютера, написанная на языке программирования: print('Mother of Dragons.') 
+Код на python — это набор инструкций, разделенных (чаще всего) переводом строки:       print('Robert')
+                                                                                       print('Stannis')
+                                                                                       print('Renly')
