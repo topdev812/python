@@ -1,1 +1,1 @@
-Тест для теста
+Курс по основам https://ru.code-basics.com
