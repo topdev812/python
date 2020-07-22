@@ -17,6 +17,7 @@
                                                                                        print("Dragon's mother")
                                                                                        print("Dragon's mother said \"No\"")
                                                                                        print("\"Khal Drogo's favorite word is \"athjahakar\"\"")
+                                                                                       print('"Khal Drogo\'s favorite word is \"athjahakar""')
 
 Хороший стиль программирования:
 Всегда отбивайте арифметические операторы пробелами от самих чисел (операндов):        print(81 / 9)
