@@ -37,13 +37,17 @@
                                                                                        greeting = 'Hello'
                                                                                        template = "{}, {}!"
                                                                                        print(template.format(greeting, first_name))
-                                                                                       
                                                                                        print("Do you want to eat, {}?".format('Arya'))
-
- Собираем слово из букв трех строковых переменных:                                     one = 'Naharis'
+Собираем слово из букв трех строковых переменных:                                      one = 'Naharis'
                                                                                        two = 'Mormont'
                                                                                        three = 'Sand'
                                                                                        print('{}{}{}{}{}'.format(one[2], two[1], three[3], two[4], two[2]))
+Multi-line строки. Для того, чтобы описать такую “многострочную строку”, нужно заключить её в тройные кавычки - """ или ''':
+                                                                                       text = '''Lannister, Targaryen, Baratheon, Stark, Tyrell...
+                                                                                       they're all just spokes on a wheel.
+                                                                                       This one's on top, then that one's on top, and on and on it spins,
+                                                                                       crushing those on the ground.'''
+                                                                                       print(text)
 
 Хороший стиль программирования:
 Всегда отбивайте арифметические операторы пробелами от самих чисел (операндов):        print(81 / 9)
