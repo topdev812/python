@@ -108,7 +108,14 @@ else — способ задать блок кода, который будет 
                                                                                                 if ('http://' in adress):
                                                                                                     return 'https://' + adress[7:]
                                                                                                 else:
-                                                                                            return 'https://' + adress  
+                                                                                            return 'https://' + adress 
+                                                                                            
+Условный оператор иначеесли "elif"                                                     def who_is_this_house_to_starks(name):
+                                                                                            if name == 'Karstark' or name == 'Tully':
+                                                                                                return 'friend'
+                                                                                            elif name == 'Lannister' or name == 'Frey':
+                                                                                                return 'enemy' 
+                                                                                            return  'neutral'
 
 Стандарты оформления кода:                                                             https://www.python.org/dev/peps/pep-0008/
 Линетр (помощник проверки кода на соблюдения стандартов по оформлению):                https://flake8.pycqa.org/en/latest/
