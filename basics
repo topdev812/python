@@ -100,6 +100,15 @@ and — означает «И» (в математической логике э
                                                                                             if guess == 42:
                                                                                                 return 'You win!'
                                                                                             return 'Try again!'
+else — способ задать блок кода, который будет выполнен, если условие с if не 
+удовлетворено. Также в блок else можно вкладывать другие условия if.                   def normalize_url(adress):
+                                                                                            if ('https://' in adress):
+                                                                                                return adress
+                                                                                            else:
+                                                                                                if ('http://' in adress):
+                                                                                                    return 'https://' + adress[7:]
+                                                                                                else:
+                                                                                            return 'https://' + adress  
 
 Стандарты оформления кода:                                                             https://www.python.org/dev/peps/pep-0008/
 Линетр (помощник проверки кода на соблюдения стандартов по оформлению):                https://flake8.pycqa.org/en/latest/
