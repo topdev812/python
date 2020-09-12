@@ -93,6 +93,9 @@ and — означает «И» (в математической логике э
 из операндов (a или b или одновременно все операнды) является истинным. 
 Иначе выражение ложное.
 
+В программировании отрицанию соответствует унарный оператор not                        def is_not_lannister_soldier(color, shild):
+                                                                                            return not((shild == 'lion') or (color == 'red' and shild is None))
+
 Стандарты оформления кода:                                                             https://www.python.org/dev/peps/pep-0008/
 Линетр (помощник проверки кода на соблюдения стандартов по оформлению):                https://flake8.pycqa.org/en/latest/
 Список всех правл хорошего кода:                                                       https://lintlyci.github.io/Flake8Rules/
