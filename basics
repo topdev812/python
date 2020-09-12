@@ -120,6 +120,16 @@ else — способ задать блок кода, который будет 
 Тернарный оператор — единственный в своем роде оператор, требующий три операнда (?)    def flip_flop(str):
                                                                                           return 'flop' if str == 'flip' else 'flip'
 
+Проверка переданного значения  (0 или не 0, пустая строка или нет)                     print(bool(0))    # => False
+                                                                                       print(bool(10))   # => True
+                                                                                       print(bool(''))   # => False
+                                                                                       print(bool('a'))  # => True                                                                    
+                                                                                       
+                                                                                       def can_divide_by(number):
+                                                                                           if number:
+                                                                                              return 'Yes, you can!'
+                                                                                           return "No, you can't"
+
 Стандарты оформления кода:                                                             https://www.python.org/dev/peps/pep-0008/
 Линетр (помощник проверки кода на соблюдения стандартов по оформлению):                https://flake8.pycqa.org/en/latest/
 Список всех правл хорошего кода:                                                       https://lintlyci.github.io/Flake8Rules/
