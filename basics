@@ -117,6 +117,9 @@ else — способ задать блок кода, который будет 
                                                                                                 return 'enemy' 
                                                                                             return  'neutral'
 
+Тернарный оператор — единственный в своем роде оператор, требующий три операнда (?)    def flip_flop(str):
+                                                                                          return 'flop' if str == 'flip' else 'flip'
+
 Стандарты оформления кода:                                                             https://www.python.org/dev/peps/pep-0008/
 Линетр (помощник проверки кода на соблюдения стандартов по оформлению):                https://flake8.pycqa.org/en/latest/
 Список всех правл хорошего кода:                                                       https://lintlyci.github.io/Flake8Rules/
