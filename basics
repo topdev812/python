@@ -129,6 +129,13 @@ else — способ задать блок кода, который будет 
                                                                                            if number:
                                                                                               return 'Yes, you can!'
                                                                                            return "No, you can't"
+                                                                                           
+Цикл While                                                                             def print_numbers(num):
+                                                                                            i = num;
+                                                                                            while i > 0:
+                                                                                                print(i)
+                                                                                                i = i - 1
+                                                                                            print('finished!')
 
 Стандарты оформления кода:                                                             https://www.python.org/dev/peps/pep-0008/
 Линетр (помощник проверки кода на соблюдения стандартов по оформлению):                https://flake8.pycqa.org/en/latest/
